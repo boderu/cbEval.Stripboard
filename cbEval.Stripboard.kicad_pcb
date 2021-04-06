@@ -6,7 +6,7 @@
 
   (paper "A4")
   (title_block
-    (title "Stripboard")
+    (title "cbEval Stripboard")
     (rev "1.0.0")
   )
 
