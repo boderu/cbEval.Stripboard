@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\BodeRu\WorkspaceKiCAD\cbEval.Stripboard\cbEval.Stripboard.kicad_sch</source>
+    <date>11.04.2021 17:25:13</date>
+    <tool>Eeschema (5.99.0-10141-g7d9ee76f64)</tool>
+    <textvar name="TITLE">cbEval Stripboard</textvar>
+    <textvar name="VERSION">V1.0.0</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>cbEval Stripboard</title>
+        <company/>
+        <rev>1.0.0</rev>
+        <date/>
+        <source>cbEval.Stripboard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>C.Kemet.MLCC.0805.X7R.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="ID">C0805C104K5RAC7025</field>
+        <field name="Package">0805</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="C.Kemet.MLCC.0805.X7R" part="100n" description="Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"/>
+      <property name="Package" value="0805"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="ID" value="C0805C104K5RAC7025"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cbb5a63-66d2-441a-a888-e4e80e7c0f11</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4n7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>C.Kemet.MLCC.0805.X7R.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="ID">C0805C472K5RACTU</field>
+        <field name="Package">0805</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="C.Kemet.MLCC.0805.X7R" part="4n7" description="Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"/>
+      <property name="Package" value="0805"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="ID" value="C0805C472K5RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb69352a-0f3a-480d-be55-1ced798e0a73</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>CIME.E.BE3500S.1x</value>
+      <footprint>BTech.Housing:Camdenboss.CIME.E.BE3500S.1x</footprint>
+      <datasheet>https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf</datasheet>
+      <fields>
+        <field name="ID">CIME/E/BE3500S</field>
+      </fields>
+      <libsource lib="H.Housing" part="CIME.E.BE3500S.1x" description="Euro Series 107mm Empty Modular Interface Support"/>
+      <property name="ID" value="CIME/E/BE3500S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>603c5b6a-dc49-45d8-bdd4-0b72c3f72b94</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>Stripfield-4x4</value>
+      <footprint>BTech.PCB:Stripfield-4x4</footprint>
+      <libsource lib="PCB" part="Stripfield-4x4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>471ffadc-066e-4d7e-a5b6-ed8f078884cc</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>Stripfield-4x4</value>
+      <footprint>BTech.PCB:Stripfield-4x4</footprint>
+      <libsource lib="PCB" part="Stripfield-4x4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f80236f0-de43-4275-850e-32368bcb8c5d</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>Stripfield-4x4</value>
+      <footprint>BTech.PCB:Stripfield-4x4</footprint>
+      <libsource lib="PCB" part="Stripfield-4x4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>beb48bc0-bb73-4736-b585-f666e49f5901</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>Stripfield-4x4</value>
+      <footprint>BTech.PCB:Stripfield-4x4</footprint>
+      <libsource lib="PCB" part="Stripfield-4x4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc45d19a-5d55-454e-8c51-17387bdf52a0</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>Stripfield-4x4</value>
+      <footprint>BTech.PCB:Stripfield-4x4</footprint>
+      <libsource lib="PCB" part="Stripfield-4x4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af335771-b969-45ff-82ec-4b913372caa1</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>Stripfield-4x4</value>
+      <footprint>BTech.PCB:Stripfield-4x4</footprint>
+      <libsource lib="PCB" part="Stripfield-4x4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f993b2f-9d5a-4457-9fbb-14f0f1a712e8</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>Stripfield-4x4</value>
+      <footprint>BTech.PCB:Stripfield-4x4</footprint>
+      <libsource lib="PCB" part="Stripfield-4x4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9b042bc-fe5d-4b69-927f-d62c32a9b41d</tstamps>
+    </comp>
+    <comp ref="H9">
+      <value>Stripfield-4x4</value>
+      <footprint>BTech.PCB:Stripfield-4x4</footprint>
+      <libsource lib="PCB" part="Stripfield-4x4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a92dcb5a-85d3-416f-8dba-5246b3e17d01</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Bergstik-II_3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</datasheet>
+      <fields>
+        <field name="ID">68000-103HLF</field>
+        <field name="Package">1x3-2.54</field>
+        <field name="Usage">Pwr Bus Ctrl</field>
+      </fields>
+      <libsource lib="J.PinHeader" part="Bergstik-II_3" description="Jumper, 3-pole, open"/>
+      <property name="Package" value="1x3-2.54"/>
+      <property name="Usage" value="Pwr Bus Ctrl"/>
+      <property name="ID" value="68000-103HLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4834df8a-150d-455f-b45b-f7736ed80148</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Bergstik-II_6</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</datasheet>
+      <fields>
+        <field name="ID">68000-106HLF</field>
+        <field name="Package">1x6-2.54</field>
+        <field name="Usage">Pwr Bus Voltages</field>
+      </fields>
+      <libsource lib="J.PinHeader" part="Bergstik-II_6" description="Jumper, 6-pole, open"/>
+      <property name="Package" value="1x6-2.54"/>
+      <property name="Usage" value="Pwr Bus Voltages"/>
+      <property name="ID" value="68000-106HLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e434eea2-0d33-465d-9914-63f189ec7513</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Header.Hor.2x8.9-103326-0-08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ID">9-103326-0-08</field>
+        <field name="Usage">Usage</field>
+      </fields>
+      <libsource lib="J.AMPMODU-ModII" part="Header.Hor.2x8.9-103326-0-08" description="CONN HEADER R/A 16POS 2.54MM "/>
+      <property name="Usage" value="Usage"/>
+      <property name="ID" value="9-103326-0-08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1951a51-b5f3-4197-a3db-44816a8ee49d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Socket.Hor.2x8.1-5535512-8</value>
+      <footprint>BTech.Connector.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ID">1-5535512-8</field>
+        <field name="Usage">Usage</field>
+      </fields>
+      <libsource lib="J.AMPMODU-ModII" part="Socket.Hor.2x8.1-5535512-8" description="CONN RCPT 16POS 0.1 GOLD PCB R/A"/>
+      <property name="Usage" value="Usage"/>
+      <property name="ID" value="1-5535512-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>748d8da7-dee4-45ec-b174-2eaa3a9e1d0b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Bergstik-II_3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</datasheet>
+      <fields>
+        <field name="ID">68000-103HLF</field>
+        <field name="Package">1x3-2.54</field>
+        <field name="Usage">Reserved</field>
+      </fields>
+      <libsource lib="J.PinHeader" part="Bergstik-II_3" description="Jumper, 3-pole, open"/>
+      <property name="Package" value="1x3-2.54"/>
+      <property name="Usage" value="Reserved"/>
+      <property name="ID" value="68000-103HLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1728d222-b8cd-4d51-8656-8cfa0405a787</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Bergstik-II_3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</datasheet>
+      <fields>
+        <field name="ID">68000-103HLF</field>
+        <field name="Package">1x3-2.54</field>
+        <field name="Usage">Data Bus CAN</field>
+      </fields>
+      <libsource lib="J.PinHeader" part="Bergstik-II_3" description="Jumper, 3-pole, open"/>
+      <property name="Package" value="1x3-2.54"/>
+      <property name="Usage" value="Data Bus CAN"/>
+      <property name="ID" value="68000-103HLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06cc8b7a-8c25-4c1b-b04a-a4fd49fd5123</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Bergstik-II_3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</datasheet>
+      <fields>
+        <field name="ID">68000-103HLF</field>
+        <field name="Package">1x3-2.54</field>
+        <field name="Usage">Data Bus SPI ADR</field>
+      </fields>
+      <libsource lib="J.PinHeader" part="Bergstik-II_3" description="Jumper, 3-pole, open"/>
+      <property name="Package" value="1x3-2.54"/>
+      <property name="Usage" value="Data Bus SPI ADR"/>
+      <property name="ID" value="68000-103HLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7094512-9c75-494a-9c9c-5090ff8d6d12</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Bergstik-II_6</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</datasheet>
+      <fields>
+        <field name="ID">68000-106HLF</field>
+        <field name="Package">1x6-2.54</field>
+        <field name="Usage">Data Bus SPI + One-Wire</field>
+      </fields>
+      <libsource lib="J.PinHeader" part="Bergstik-II_6" description="Jumper, 6-pole, open"/>
+      <property name="Package" value="1x6-2.54"/>
+      <property name="Usage" value="Data Bus SPI + One-Wire"/>
+      <property name="ID" value="68000-106HLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cae677f-bcd0-4a8d-bc55-250be7c5f40f</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>Bergstik-II_8</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=76888e0c4b77714a02451006507dff9616ae91fb-1617547246-0-AZgVHTklj1ovfQpKhSBW6aDl9n2_k47NL_7qnK822WL_wqcHGiWCz91CjZOBqf-b3KvTnj9T7PTULe671le7ZTsqdgx7joq6xXN0VXyetEWU_l7NTTvYZnkPGZnRbloGt4cb3l9TbgGx3uAWsov7s8HvXsV-NW_vPMzyf5RNNbzLpFIBy5P_bJWbn1nuAEhr2Rn0hGTb7uuVN3cRGj2VTeFFN-E0xrJ0Cgh-mvjgJjE2xhk9ApTF-exJnps89Z7rHsttmJ7paraRq2urp27fnu470sx0-VqNcQ2agCBEDUNu0hfDy90Aqg7xMY0doOETxH3KKXAFdvKJSZPRsE1NoUCh2xHWgpQ4poCuzIlOJ3l_M22T5soIXV5jSIQkt8N2CyBO04nX51xihbt4ukVzxnqZfVTIU0hWxh-pFPLIMOkGEVPtsHV6Udfba4nluptWocprS_okNqVoHYK3qiZ7PnEsGFaZpBEyZEX0DJfh-oYv</datasheet>
+      <fields>
+        <field name="ID">68000-108HLF</field>
+        <field name="Package">1x8-2.54</field>
+        <field name="Usage">SPI-~CE~ Decoded</field>
+      </fields>
+      <libsource lib="J.PinHeader" part="Bergstik-II_8" description="Jumper, 8-pole, open"/>
+      <property name="Package" value="1x8-2.54"/>
+      <property name="Usage" value="SPI-~CE~ Decoded"/>
+      <property name="ID" value="68000-108HLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a99d0d7-b24e-46ae-9835-92548abdf953</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Bergstik-II_6</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</datasheet>
+      <fields>
+        <field name="ID">68000-106HLF</field>
+        <field name="Package">1x6-2.54</field>
+        <field name="Usage">GND</field>
+      </fields>
+      <libsource lib="J.PinHeader" part="Bergstik-II_6" description="Jumper, 6-pole, open"/>
+      <property name="Package" value="1x6-2.54"/>
+      <property name="Usage" value="GND"/>
+      <property name="ID" value="68000-106HLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fae6516a-9429-461a-8ec1-3b1a99f8be92</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>Header.Hor.2x8.9-103326-0-08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ID">9-103326-0-08</field>
+        <field name="Usage">Usage</field>
+      </fields>
+      <libsource lib="J.AMPMODU-ModII" part="Header.Hor.2x8.9-103326-0-08" description="CONN HEADER R/A 16POS 2.54MM "/>
+      <property name="Usage" value="Usage"/>
+      <property name="ID" value="9-103326-0-08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9acc9514-5128-4f02-835f-8b31e73e1f4d</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Socket.Hor.2x8.1-5535512-8</value>
+      <footprint>BTech.Connector.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ID">1-5535512-8</field>
+        <field name="Usage">Usage</field>
+      </fields>
+      <libsource lib="J.AMPMODU-ModII" part="Socket.Hor.2x8.1-5535512-8" description="CONN RCPT 16POS 0.1 GOLD PCB R/A"/>
+      <property name="Usage" value="Usage"/>
+      <property name="ID" value="1-5535512-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8eaca112-d11b-43ec-b321-bd98f0007cba</tstamps>
+    </comp>
+    <comp ref="MP1">
+      <value>KiCAD-Logo2.5mm.SilkScreen</value>
+      <footprint>Symbol:KiCad-Logo_5mm_SilkScreen</footprint>
+      <libsource lib="Symbol" part="KiCAD-Logo2.5mm.SilkScreen" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa3513d0-0eee-457c-a792-7c9954431f2c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>60R4</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>R.Yaego.RC0805.pdf</datasheet>
+      <fields>
+        <field name="ID">RC0805FR-0760R4L</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="TK">TK100</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="R.Yageo.RC0805" part="60R4" description="SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt"/>
+      <property name="Package" value="0805"/>
+      <property name="Power" value="0W125"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="TK" value="TK100"/>
+      <property name="ID" value="RC0805FR-0760R4L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03d5fd5c-7c17-407c-a42e-f303c1dad0e5</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>60R4</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>R.Yaego.RC0805.pdf</datasheet>
+      <fields>
+        <field name="ID">RC0805FR-0760R4L</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="TK">TK100</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="R.Yageo.RC0805" part="60R4" description="SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt"/>
+      <property name="Package" value="0805"/>
+      <property name="Power" value="0W125"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="TK" value="TK100"/>
+      <property name="ID" value="RC0805FR-0760R4L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb58e51a-f2c7-4aee-82c3-f711ff8a2457</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>C&amp;K-JS202011</value>
+      <footprint>Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight</footprint>
+      <datasheet>https://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="ID">JS202011CQN</field>
+        <field name="Usage">CAN-Term</field>
+      </fields>
+      <libsource lib="S" part="C&amp;K-JS202011" description="Sub-Miniature Slide Switches"/>
+      <property name="Usage" value="CAN-Term"/>
+      <property name="ID" value="JS202011CQN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce09aa3d-4087-45ca-9d22-0301572fe9c3bac21b1a-b9fb-4669-9df0-21ebe48698b7</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TAB1287</value>
+      <footprint>TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill1.3mm</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p59.pdf</datasheet>
+      <fields>
+        <field name="ID">1287</field>
+        <field name="Usage">Meas GND</field>
+      </fields>
+      <libsource lib="TP.Keystone" part="TAB1287" description="Test Point - Faston"/>
+      <property name="Usage" value="Meas GND"/>
+      <property name="ID" value="1287"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b30ab6b3-5b9f-4f4c-9b0b-4f9cfe6bff29</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TAB1287</value>
+      <footprint>TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill1.3mm</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p59.pdf</datasheet>
+      <fields>
+        <field name="ID">1287</field>
+        <field name="Usage">Meas GND</field>
+      </fields>
+      <libsource lib="TP.Keystone" part="TAB1287" description="Test Point - Faston"/>
+      <property name="Usage" value="Meas GND"/>
+      <property name="ID" value="1287"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06b4033c-6812-4772-a515-49415b684d45</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SN74AHC138D</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74ahc138.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1617545569487</datasheet>
+      <fields>
+        <field name="ID">SN74AHC138D</field>
+        <field name="Package">SOIC-16</field>
+      </fields>
+      <libsource lib="U.Logic" part="SN74AHC138D" description="3-LINE TO 8-LINE DECODERS/DEMULTIPLEXERS"/>
+      <property name="Package" value="SOIC-16"/>
+      <property name="ID" value="SN74AHC138D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.Stripboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02048e7b-f049-4130-97fe-0e9c22b54a9d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="C.Kemet.MLCC.0805.X7R" part="100n">
+      <description>Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)</description>
+      <docs>C.Kemet.MLCC.0805.X7R.pdf</docs>
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100n</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">C.Kemet.MLCC.0805.X7R.pdf</field>
+        <field name="Package">0805</field>
+        <field name="Voltage">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">X7R</field>
+        <field name="ID">C0805C104K5RAC7025</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C.Kemet.MLCC.0805.X7R" part="4n7">
+      <description>Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)</description>
+      <docs>C.Kemet.MLCC.0805.X7R.pdf</docs>
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4n7</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">C.Kemet.MLCC.0805.X7R.pdf</field>
+        <field name="Package">0805</field>
+        <field name="Voltage">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">X7R</field>
+        <field name="ID">C0805C472K5RACTU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="H.Housing" part="CIME.E.BE3500S.1x">
+      <description>Euro Series 107mm Empty Modular Interface Support</description>
+      <docs>https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf</docs>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">CIME.E.BE3500S.1x</field>
+        <field name="Footprint">BTech.Housing:Camdenboss.CIME.E.BE3500S.1x</field>
+        <field name="Datasheet">https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf</field>
+        <field name="ID">CIME/E/BE3500S</field>
+      </fields>
+    </libpart>
+    <libpart lib="J.AMPMODU-ModII" part="Header.Hor.2x8.9-103326-0-08">
+      <description>CONN HEADER R/A 16POS 2.54MM </description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Header.Hor.2x8.9-103326-0-08</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">9-103326-0-08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="J.AMPMODU-ModII" part="Socket.Hor.2x8.1-5535512-8">
+      <description>CONN RCPT 16POS 0.1 GOLD PCB R/A</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Socket.Hor.2x8.1-5535512-8</field>
+        <field name="Footprint">BTech.Connector.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">1-5535512-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="J.PinHeader" part="Bergstik-II_3">
+      <description>Jumper, 3-pole, open</description>
+      <docs>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</docs>
+      <footprints>
+        <fp>Jumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Bergstik-II_3</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</field>
+        <field name="Package">1x3-2.54</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">68000-103HLF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="A3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="J.PinHeader" part="Bergstik-II_6">
+      <description>Jumper, 6-pole, open</description>
+      <docs>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</docs>
+      <footprints>
+        <fp>Jumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Bergstik-II_6</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</field>
+        <field name="Package">1x6-2.54</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">68000-106HLF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="A3" type="passive"/>
+        <pin num="4" name="A4" type="passive"/>
+        <pin num="5" name="A5" type="passive"/>
+        <pin num="6" name="A6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="J.PinHeader" part="Bergstik-II_8">
+      <description>Jumper, 8-pole, open</description>
+      <docs>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=76888e0c4b77714a02451006507dff9616ae91fb-1617547246-0-AZgVHTklj1ovfQpKhSBW6aDl9n2_k47NL_7qnK822WL_wqcHGiWCz91CjZOBqf-b3KvTnj9T7PTULe671le7ZTsqdgx7joq6xXN0VXyetEWU_l7NTTvYZnkPGZnRbloGt4cb3l9TbgGx3uAWsov7s8HvXsV-NW_vPMzyf5RNNbzLpFIBy5P_bJWbn1nuAEhr2Rn0hGTb7uuVN3cRGj2VTeFFN-E0xrJ0Cgh-mvjgJjE2xhk9ApTF-exJnps89Z7rHsttmJ7paraRq2urp27fnu470sx0-VqNcQ2agCBEDUNu0hfDy90Aqg7xMY0doOETxH3KKXAFdvKJSZPRsE1NoUCh2xHWgpQ4poCuzIlOJ3l_M22T5soIXV5jSIQkt8N2CyBO04nX51xihbt4ukVzxnqZfVTIU0hWxh-pFPLIMOkGEVPtsHV6Udfba4nluptWocprS_okNqVoHYK3qiZ7PnEsGFaZpBEyZEX0DJfh-oYv</docs>
+      <footprints>
+        <fp>Jumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Bergstik-II_8</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=76888e0c4b77714a02451006507dff9616ae91fb-1617547246-0-AZgVHTklj1ovfQpKhSBW6aDl9n2_k47NL_7qnK822WL_wqcHGiWCz91CjZOBqf-b3KvTnj9T7PTULe671le7ZTsqdgx7joq6xXN0VXyetEWU_l7NTTvYZnkPGZnRbloGt4cb3l9TbgGx3uAWsov7s8HvXsV-NW_vPMzyf5RNNbzLpFIBy5P_bJWbn1nuAEhr2Rn0hGTb7uuVN3cRGj2VTeFFN-E0xrJ0Cgh-mvjgJjE2xhk9ApTF-exJnps89Z7rHsttmJ7paraRq2urp27fnu470sx0-VqNcQ2agCBEDUNu0hfDy90Aqg7xMY0doOETxH3KKXAFdvKJSZPRsE1NoUCh2xHWgpQ4poCuzIlOJ3l_M22T5soIXV5jSIQkt8N2CyBO04nX51xihbt4ukVzxnqZfVTIU0hWxh-pFPLIMOkGEVPtsHV6Udfba4nluptWocprS_okNqVoHYK3qiZ7PnEsGFaZpBEyZEX0DJfh-oYv</field>
+        <field name="Package">1x8-2.54</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">68000-108HLF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="A3" type="passive"/>
+        <pin num="4" name="A4" type="passive"/>
+        <pin num="5" name="A5" type="passive"/>
+        <pin num="6" name="A6" type="passive"/>
+        <pin num="7" name="A7" type="passive"/>
+        <pin num="8" name="A8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PCB" part="Stripfield-4x4">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Stripfield-4x4</field>
+        <field name="Footprint">BTech.PCB:Stripfield-4x4</field>
+      </fields>
+    </libpart>
+    <libpart lib="R.Yageo.RC0805" part="60R4">
+      <description>SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt</description>
+      <docs>R.Yaego.RC0805.pdf</docs>
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">60R4</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">R.Yaego.RC0805.pdf</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="Tolerance">1%</field>
+        <field name="TK">TK100</field>
+        <field name="ID">RC0805FR-0760R4L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S" part="C&amp;K-JS202011">
+      <description>Sub-Miniature Slide Switches</description>
+      <docs>https://www.ckswitches.com/media/1422/js.pdf</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">C&amp;K-JS202011</field>
+        <field name="Footprint">Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/1422/js.pdf</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">JS202011CQN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Symbol" part="KiCAD-Logo2.5mm.SilkScreen">
+      <fields>
+        <field name="Reference">MP</field>
+        <field name="Value">KiCAD-Logo2.5mm.SilkScreen</field>
+        <field name="Footprint">Symbol:KiCad-Logo_5mm_SilkScreen</field>
+      </fields>
+    </libpart>
+    <libpart lib="TP.Keystone" part="TAB1287">
+      <description>Test Point - Faston</description>
+      <docs>https://www.keyelco.com/userAssets/file/M65p59.pdf</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TAB1287</field>
+        <field name="Footprint">TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill1.3mm</field>
+        <field name="Datasheet">https://www.keyelco.com/userAssets/file/M65p59.pdf</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">1287</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="U.Logic" part="SN74AHC138D">
+      <description>3-LINE TO 8-LINE DECODERS/DEMULTIPLEXERS</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74ahc138.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1617545569487</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74AHC138D</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74ahc138.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&amp;ts=1617545569487</field>
+        <field name="Package">SOIC-16</field>
+        <field name="ID">SN74AHC138D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="input"/>
+        <pin num="4" name="~G~2A" type="input"/>
+        <pin num="5" name="~G~2B" type="input"/>
+        <pin num="6" name="G1" type="input"/>
+        <pin num="7" name="Y7" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Y6" type="output"/>
+        <pin num="10" name="Y5" type="output"/>
+        <pin num="11" name="Y4" type="output"/>
+        <pin num="12" name="Y3" type="output"/>
+        <pin num="13" name="Y2" type="output"/>
+        <pin num="14" name="Y1" type="output"/>
+        <pin num="15" name="Y0" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="C.Kemet.MLCC.0805.X7R">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/C.Kemet.MLCC.0805.X7R.kicad_sym</uri>
+    </library>
+    <library logical="H.Housing">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/H.Housing.kicad_sym</uri>
+    </library>
+    <library logical="J.AMPMODU-ModII">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/J.AMPMODU-ModII.kicad_sym</uri>
+    </library>
+    <library logical="J.PinHeader">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/J.PinHeader.kicad_sym</uri>
+    </library>
+    <library logical="PCB">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/PCB.kicad_sym</uri>
+    </library>
+    <library logical="R.Yageo.RC0805">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/R.Yageo.RC0805.kicad_sym</uri>
+    </library>
+    <library logical="S">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/S.kicad_sym</uri>
+    </library>
+    <library logical="Symbol">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/Symbol.kicad_sym</uri>
+    </library>
+    <library logical="TP.Keystone">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/TP.Keystone.kicad_sym</uri>
+    </library>
+    <library logical="U.Logic">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/U.Logic.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="J16" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J17" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="A3" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="J16" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J17" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="A2" pintype="passive"/>
+    </net>
+    <net code="3" name="+15V">
+      <node ref="J16" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J17" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="A4" pintype="passive"/>
+    </net>
+    <net code="4" name="+VDC">
+      <node ref="J16" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J17" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="A6" pintype="passive"/>
+    </net>
+    <net code="5" name="-15V">
+      <node ref="J16" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J17" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="A5" pintype="passive"/>
+    </net>
+    <net code="6" name="/CAN-H">
+      <node ref="J11" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="7" name="/CAN-L">
+      <node ref="J11" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="S1" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="8" name="/I2C-SCL">
+      <node ref="J1" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J16" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J17" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="9" name="/I2C-SDA">
+      <node ref="J1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J16" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J17" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="10" name="/One-Wire">
+      <node ref="J13" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="16" pintype="passive"/>
+    </net>
+    <net code="11" name="/Reserved0">
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="A1" pintype="passive"/>
+    </net>
+    <net code="12" name="/Reserved1">
+      <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="A3" pintype="passive"/>
+    </net>
+    <net code="13" name="/SPI-ADR0">
+      <node ref="J12" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="14" name="/SPI-ADR1">
+      <node ref="J12" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="15" name="/SPI-ADR2">
+      <node ref="J12" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="C" pintype="input"/>
+    </net>
+    <net code="16" name="/SPI-CLK">
+      <node ref="J13" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="17" name="/SPI-MRST">
+      <node ref="J13" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="18" name="/SPI-MTSR">
+      <node ref="J13" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="19" name="/SPI-~CE">
+      <node ref="J13" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="~G~2A" pintype="input"/>
+    </net>
+    <net code="20" name="/~RESET">
+      <node ref="J1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J16" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J17" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="21" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J13" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J15" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="J15" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="J15" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="J16" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J16" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J16" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J16" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J16" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J16" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J17" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J17" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J17" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J17" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J17" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J17" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="~G~2B" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="22" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(J14-Pad1)">
+      <node ref="J14" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="Y0" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(J14-Pad2)">
+      <node ref="J14" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="Y1" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(J14-Pad3)">
+      <node ref="J14" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="Y2" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(J14-Pad4)">
+      <node ref="J14" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="Y3" pintype="output"/>
+    </net>
+    <net code="27" name="Net-(J14-Pad5)">
+      <node ref="J14" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="Y4" pintype="output"/>
+    </net>
+    <net code="28" name="Net-(J14-Pad6)">
+      <node ref="J14" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="Y5" pintype="output"/>
+    </net>
+    <net code="29" name="Net-(J14-Pad7)">
+      <node ref="J14" pin="7" pinfunction="A7" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="Y6" pintype="output"/>
+    </net>
+    <net code="30" name="Net-(J14-Pad8)">
+      <node ref="J14" pin="8" pinfunction="A8" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="Y7" pintype="output"/>
+    </net>
+    <net code="31" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="S1" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="33" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="G1" pintype="input"/>
+    </net>
+    <net code="34" name="unconnected-(S1-Pad1)">
+      <node ref="S1" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(S1-Pad4)">
+      <node ref="S1" pin="4" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
